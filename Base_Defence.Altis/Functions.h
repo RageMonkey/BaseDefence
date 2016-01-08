@@ -114,8 +114,17 @@ class Life_Client_Core
 		class robAction {};
 		class captureHideout {};
 		class gather {};
-		class aiSpawn {};
 		class startGame {};
+		class payoutWave1 {};
+		class payoutWave2 {};
+		class payoutWave3 {};
+		class payoutWave4 {};
+		class payoutWave5 {};
+		class payoutWave6 {};
+		class payoutWave7 {};
+		class payoutWave8 {};
+		class payoutWave9 {};
+		class payoutWave10 {};
 	};
 	
 	class Housing

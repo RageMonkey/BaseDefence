@@ -37,18 +37,18 @@ _Btn1 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_repairTruck;";
 if("ToolKit" in (items player) && (damage _curTarget < 1)) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};
 
 if(playerSide == west) then {
-	_Btn2 ctrlSetText localize "STR_vInAct_Registration";
-	_Btn2 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_searchVehAction;";
+//	_Btn2 ctrlSetText localize "STR_vInAct_Registration";
+//	_Btn2 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_searchVehAction;";
 	
-	_Btn3 ctrlSetText localize "STR_vInAct_SearchVehicle";
-	_Btn3 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_vehInvSearch;";
+//	_Btn3 ctrlSetText localize "STR_vInAct_SearchVehicle";
+//	_Btn3 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_vehInvSearch;";
 	
-	_Btn4 ctrlSetText localize "STR_vInAct_PullOut";
-	_Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
-	if(count crew _curTarget == 0) then {_Btn4 ctrlEnable false;};
+//	_Btn4 ctrlSetText localize "STR_vInAct_PullOut";
+//	_Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
+//	if(count crew _curTarget == 0) then {_Btn4 ctrlEnable false;};
 	
-	_Btn5 ctrlSetText localize "STR_vInAct_Impound";
-	_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundAction;";
+//	_Btn5 ctrlSetText localize "STR_vInAct_Impound";
+//	_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundAction;";
 	
 	if(_curTarget isKindOf "Ship") then {
 		_Btn6 ctrlSetText localize "STR_vInAct_PushBoat";

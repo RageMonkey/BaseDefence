@@ -1,5 +1,5 @@
 author = "RoT Gaming";
-onLoadName = "Altis Base Defence v0.1";
+onLoadName = "Altis Base Defence v0.2";
 onLoadMission = "Defend Your Base From Increasingly Difficult Waves of Enemies.";
 loadScreen = "icons\loadscreen.jpg";
 joinUnassigned = 1;
