@@ -19,6 +19,6 @@ systemChat format["[GL v3.1.4] Loading game server info...", _rscLayer];
 	{
 		sleep 1;
 		_counter = _counter - 1;
-		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["| FPS: %1 | Players: %2 | CASH: %3 | BANK: %4 | GRIDREF: %5 |", round diag_fps, west countSide playableUnits,[life_cash] call life_fnc_numberText,[life_atmcash] call life_fnc_numberText,mapGridPosition player, _counter];
+		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["| FPS: %1 | Players: %2 | Bottlecaps: %3 | GRIDREF: %4 |", round diag_fps, west countSide playableUnits,[life_atmcash] call life_fnc_numberText,mapGridPosition player, _counter];
 	};
 };

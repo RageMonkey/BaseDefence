@@ -20,7 +20,7 @@ camDestroy life_deathCamera;
 
 //Take fee for services.
 if(life_atmcash > (call life_revive_fee)) then {
-	life_atmcash = life_atmcash - (call life_revive_fee);
+	life_atmcash = life_atmcash;
 } else {
 	life_atmcash = 0;
 };

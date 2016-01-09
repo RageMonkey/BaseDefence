@@ -9,7 +9,7 @@ introSpawn = nil;
 if(!isDedicated) then { X_Client = true;};
 enableSaving[false,false];
 
-life_versionInfo = "Altis Base Defence v0.1 (Alpha)";
+life_versionInfo = "Altis Base Defence v0.2 (Alpha)";
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
 

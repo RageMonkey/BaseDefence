@@ -6,7 +6,7 @@
 */
 format["Welcome %1, Please read the following as it is important!",profileName] hintC
 [
-	"Welcome to Altis Base Defence version 0.1 (#InDev#Alpha)",
+	"Welcome to Altis Base Defence version 0.2 (#Alpha)",
 	"The objective of this game mode is to defend your base from waves of enemies that wish to destroy it. You will need to work together with your team mates in order to survive this hostile environment.",
 	"This is a new game type and we are expecting bugs to be present, we would highly encourage you to notify us if you encounter any bugs.",
 	"Server created by RoT Gaming, invisioned by Sector and Developed by Johnny Tappia ",

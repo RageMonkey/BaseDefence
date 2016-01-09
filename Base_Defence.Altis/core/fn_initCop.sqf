@@ -16,9 +16,6 @@ if(life_blacklisted) exitWith
 	sleep 30;
 };
 
-
-
-
 player setVariable["rank",(__GETC__(life_coplevel)),true];
 [] call life_fnc_spawnMenu;
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.

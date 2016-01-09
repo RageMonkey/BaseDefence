@@ -4214,12 +4214,12 @@
 			<Portuguese>Você pode dar respawn</Portuguese>
 		</Key>
 		<Key ID="STR_Medic_RevivePay">
-			<Original>%1 has revived you and a fee of $%2 was taken from your bank account for their services.</Original>
-			<English>%1 has revived you and a fee of $%2 was taken from your bank account for their services.</English>
-			<German>%1 hat dich wiederbelebt und dafür eine Gebühr von $%2 von deinem Bankkonto eingezogen.</German>
-			<French>%1 vous à réanimé, les fraits de $%2 sont transféré depuit votre compte bancaire pour leurs services.</French>
-			<Italian>%1 ti ha rianimato e sono stati prelevati €%2 dal tuo conto in banca per pagare la prestazione.</Italian>
-			<Portuguese>%1 reviveu você e uma taxa de R$2% foi cobrada da sua conta bancária para os serviços prestados.</Portuguese>
+			<Original>%1 has revived you</Original>
+			<English>%1 has revived you</English>
+			<German></German>
+			<French></French>
+			<Italian></Italian>
+			<Portuguese></Portuguese>
 		</Key>
 		<Key ID="STR_Medic_AlreadyReviving">
 			<Original>Someone else is already reviving this person</Original>
@@ -5140,28 +5140,28 @@
 	</Package>
 	<Package name="FSM_Strings">
 		<Key ID="STR_FSM_Paycheck">
-			<Original>You will receive your defence award in %1 minutes</Original>
-			<English>You will receive your next paycheck in %1 minutes</English>
-			<German>Du erhältst deinen nächsten Gehaltsscheck in %1 Minuten</German>
-			<French>Vous recevrez votre prochain chèque de paie dans %1 minutes</French>
-			<Italian>Riceverai il tuo prossimo stipendio in %1 minuti</Italian>		
-			<Portuguese>Você vai receber seu próximo pagamento em %1 minutos</Portuguese>
+			<Original></Original>
+			<English></English>
+			<German></German>
+			<French></French>
+			<Italian></Italian>		
+			<Portuguese></Portuguese>
 		</Key>
 		<Key ID="STR_FSM_MissedPay">
-			<Original>You have missed a money reward because you were dead</Original>
-			<English>You have missed a paycheck because you were dead.</English>
-			<German>Du erhältst kein Gehaltsscheck, da du gestorben bist.</German>
-			<French>Vous avez manqué un chèque de paie parce que vous étiez mort.</French>
-			<Italian>Hai perso uno stipendio perche eri morto.</Italian>
-			<Portuguese>Você não recebeu seu pagamento pois estava morto.</Portuguese>
+			<Original></Original>
+			<English></English>
+			<German></German>
+			<French></French>
+			<Italian></Italian>
+			<Portuguese></Portuguese>
 		</Key>
 		<Key ID="STR_FSM_ReceivedPay">
-			<Original>For your efforts defending the base you have been rewarded with $%1</Original>
-			<English>You have received a paycheck of $%1</English>
-			<German>Du hast deinen Gehaltscheck in Höhe von $%1 erhalten</German>
-			<French>Vous avez reçu un salaire de $%1</French>
-			<Italian>Hai ricevuto uno stipendio di €%1</Italian>
-			<Portuguese>Você recebeu seu pagamento de R$%1</Portuguese>
+			<Original></Original>
+			<English></English>
+			<German></German>
+			<French></French>
+			<Italian></Italian>
+			<Portuguese></Portuguese>
 		</Key>
 	</Package>
 	<Package name="Player_Actions">

@@ -1,5 +1,5 @@
 author = "RoT Gaming";
-onLoadName = "Altis Base Defence v0.1";
+onLoadName = "Altis Base Defence v0.2";
 onLoadMission = "Defend Your Base From Increasingly Difficult Waves of Enemies.";
 loadScreen = "icons\loadscreen.jpg";
 joinUnassigned = 1;
@@ -113,16 +113,6 @@ class CfgDebriefing
 		title = "Mission Failed";
 		subtitle = "You are blacklisted from the game";
 		description = "You are not allowed to play on the server due to previous actions and the admins have removed you from being able to the play please go to www.rogaming.net to appeal";
-		pictureBackground = "";
-		picture = "";
-		pictureColor[] = {0,0.3,0.6,1};
-	};
-	
-	class SpyGlass
-	{
-		title = "The SpyGlass sees you";
-		subTitle = "You were detected by the SpyGlass";
-		description = "You were detected for cheating and have been reported to the server. Enjoy your day.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};

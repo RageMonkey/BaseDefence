@@ -16,22 +16,22 @@ player addVest "V_PlateCarrierH_CTRG";
 player addHeadgear "H_HelmetB_light_sand";
 player addBackpack "B_Carryall_mcamo";
 
+player addMagazine "11Rnd_45ACP_Mag";
+player addMagazine "11Rnd_45ACP_Mag";
+player addMagazine "11Rnd_45ACP_Mag";
+player addMagazine "11Rnd_45ACP_Mag";
+player addMagazine "11Rnd_45ACP_Mag";
+player addMagazine "30Rnd_9x21_Mag";
+player addMagazine "30Rnd_9x21_Mag";
+player addMagazine "30Rnd_9x21_Mag";
+player addMagazine "30Rnd_9x21_Mag";
+player addMagazine "30Rnd_9x21_Mag";
+player addMagazine "30Rnd_9x21_Mag";
+player addMagazine "30Rnd_9x21_Mag";
+player addMagazine "30Rnd_9x21_Mag";
+player addMagazine "30Rnd_9x21_Mag";
 player addWeapon "hgun_Pistol_heavy_01_snds_F";
 player addWeapon "SMG_02_ARCO_pointg_F";
-player addMagazine "11Rnd_45ACP_Mag";
-player addMagazine "11Rnd_45ACP_Mag";
-player addMagazine "11Rnd_45ACP_Mag";
-player addMagazine "11Rnd_45ACP_Mag";
-player addMagazine "11Rnd_45ACP_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
-player addMagazine "30Rnd_9x21_Mag";
 
 
 /* ITEMS */
@@ -43,7 +43,6 @@ player addItem "ItemWatch";
 player assignItem "ItemWatch";
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
-player addItem "Medikit";
 player addItem "FirstAidKit";
 player addItem "FirstAidKit";
 player addItem "FirstAidKit";

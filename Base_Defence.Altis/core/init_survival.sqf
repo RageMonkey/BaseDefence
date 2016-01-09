@@ -114,3 +114,29 @@
 		sleep 30;
 	};
 };
+[] spawn
+{
+	while {true} do
+	{
+		while {((player distance (getMarkerPos "death_area_1") > 200) && (player distance (getMarkerPos "respawn_west_1") > 300))} do
+			{
+				hint "You are to far away from the base! Return now you are taking damage until you return.";
+				_damage = damage player;
+				_damage = _damage + 0.05;
+				player setDamage (_damage);
+				[] call life_fnc_hudUpdate;
+				sleep 5;
+			};
+	};
+};	
+[] spawn
+{
+	while {true} do
+	{
+		while {(EAST distance (getMarkerPos "death_area_1") < 50)} do
+			{
+				hint "The enemy are within the base excersise caution and ensure they don't get to the center!";
+				sleep 10;
+			};
+	};
+};	
