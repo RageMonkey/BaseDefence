@@ -133,6 +133,7 @@ switch(_shop) do
 			{
 				["Weapon Attachment Shop",
 					[
+						["bipod_01_F_snd",nil,5],
 						["optic_Yorris",nil,0],
 						["optic_ACO_grn",nil,0],
 						["optic_Holosight",nil,0],
